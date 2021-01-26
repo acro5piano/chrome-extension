@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "author": "kazuya gosho",
+  "name": "acro5piano",
+  "description": "my chrome extension",
+  "version": "0.0.1",
+  "homepage_url": "https://github.com/acro5piano/chrome-extension",
+  "content_scripts": [
+    {
+      "matches": ["https://analytics.amplitude.com/*"],
+      "css": ["./amplitude.css"]
+    }
+  ]
+}
