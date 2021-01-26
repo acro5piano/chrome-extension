@@ -1,18 +1,3 @@
 body {
-  background: #111 !important;
-}
-
-div,
-span,
-a,
-a:visited {
-  color: #ccc !important;
-}
-
-div[class*='LegacyUniversalSidebar'] {
   background: #333 !important;
-}
-
-div {
-  background: #111 !important;
 }
