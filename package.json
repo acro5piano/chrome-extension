@@ -5,8 +5,15 @@
   "repository": "git@github.com:acro5piano/chrome-extension",
   "author": "Kay Gosho <ketsume0211@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "watch": "nodemon --ext ts --watch sites --exec ./build.sh"
+  },
+  "dependencies": {
+    "delay": "^5.0.0"
+  },
   "devDependencies": {
-    "delay": "^5.0.0",
+    "esbuild": "^0.14.39",
+    "nodemon": "^2.0.16",
     "typescript": "^4.6.4"
   }
 }
