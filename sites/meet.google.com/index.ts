@@ -15,7 +15,9 @@ document.addEventListener('keydown', (event) => {
 const observer = new MutationObserver(async (mutations) => {
   for (const mutation of mutations) {
     if (mutation.target.textContent?.includes('Join now')) {
+      // All mute.
       await click('[aria-label="Turn off microphone (ctrl + d)"]')
+      await click('[aria-label="Turn off camera (ctrl + e)"]')
       ;(mutation.target as HTMLButtonElement)?.click()
       setTimeout(() => {
         observer.disconnect()
