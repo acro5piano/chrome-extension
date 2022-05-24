@@ -6,6 +6,7 @@
   "author": "Kay Gosho <ketsume0211@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "delay": "^5.0.0",
     "typescript": "^4.6.4"
   }
 }
