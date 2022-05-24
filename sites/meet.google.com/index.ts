@@ -1,4 +1,4 @@
-import {click} from '../../util/dom'
+import { click } from '../../util/dom'
 
 /**
  * Maximize presentation with M-z.
@@ -15,7 +15,7 @@ document.addEventListener('keydown', (event) => {
 const observer = new MutationObserver(async (mutations) => {
   for (const mutation of mutations) {
     if (mutation.target.textContent?.includes('Join now')) {
-      await click( '[aria-label="Turn off microphone (ctrl + d)"]')
+      await click('[aria-label="Turn off microphone (ctrl + d)"]')
       ;(mutation.target as HTMLButtonElement)?.click()
       setTimeout(() => {
         observer.disconnect()
