@@ -7,6 +7,10 @@
   "homepage_url": "https://github.com/acro5piano/chrome-extension",
   "content_scripts": [
     {
+      "matches": ["https://www.notion.so/*"],
+      "js": ["./sites/www.notion.so/index.js"]
+    },
+    {
       "matches": ["https://meet.google.com/*"],
       "js": ["./sites/meet.google.com/index.js"]
     },
