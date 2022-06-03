@@ -6,8 +6,8 @@
   "author": "Kay Gosho <ketsume0211@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "./build.sh",
-    "watch": "nodemon --ext ts --watch sites --exec ./build.sh"
+    "dev": "nodemon --ext ts --watch sites --exec ./build.sh",
+    "build": "./build.sh"
   },
   "dependencies": {
     "delay": "^5.0.0"
