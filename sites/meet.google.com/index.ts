@@ -5,7 +5,7 @@ import { click } from '../../util/dom'
  */
 document.addEventListener('keydown', (event) => {
   if (event.key === 'z' && event.altKey) {
-    document.querySelector('[data-allocation-index="0"]')?.requestFullscreen()
+    document.querySelector('[data-resolution-cap="0"]')?.requestFullscreen()
   }
 })
 
