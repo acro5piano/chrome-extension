@@ -21,3 +21,17 @@ export function forEachElementContains(
     }
   }
 }
+
+export let isInputting = false
+
+document.addEventListener('focusin', (e) => {
+  if (e.target && 'tagName' in e.target) {
+    if ((e.target as HTMLInputElement).tagName === 'INPUT') {
+      isInputting = true
+    }
+  }
+})
+
+document.addEventListener('focusout', () => {
+  isInputting = false
+})

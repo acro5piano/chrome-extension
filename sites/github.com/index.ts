@@ -1,26 +1,28 @@
+import { isInputting } from '../../util/dom'
+
 /**
  * Move rows with j/k
  */
 let fileTreeIndex = 0
-window.addEventListener('popstate', () => {
-  fileTreeIndex = 0
-})
+let currentUrl = window.location.href
+
 function draw(givenRows?: Element[]) {
   const rows =
     givenRows || document.querySelectorAll('.js-navigation-item[role="row"]')
   for (let i = 0; i < rows.length; i++) {
     const row = rows[i] as HTMLDivElement
     if (i === fileTreeIndex) {
-      row.style.backgroundColor = '#4f4f4f'
+      row.style.backgroundColor = '#1e293b'
       row.querySelector('a')?.focus()
     } else {
       row.style.backgroundColor = 'unset'
     }
   }
 }
+
 document.addEventListener('keydown', (event) => {
-  if (event.key === 'Enter') {
-    fileTreeIndex = 0
+  if (isInputting) {
+    return
   }
   if (event.key === 'j') {
     const rows = document.querySelectorAll('.js-navigation-item[role="row"]')
@@ -36,3 +38,11 @@ document.addEventListener('keydown', (event) => {
     draw()
   }
 })
+
+setInterval(() => {
+  if (currentUrl !== window.location.href) {
+    fileTreeIndex = 0
+    draw()
+    currentUrl = window.location.href
+  }
+}, 500)
