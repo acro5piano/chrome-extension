@@ -7,6 +7,15 @@ export async function click(selector: string) {
   await delay(100)
 }
 
+export async function fill(selector: string, value: string) {
+  await delay(100)
+  const elm = document.querySelector(selector) as HTMLButtonElement
+  if (elm) {
+    elm.value = value
+  }
+  await delay(100)
+}
+
 export function forEachElementContains(
   selector: string,
   text: string,
