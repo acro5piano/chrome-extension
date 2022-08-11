@@ -7,6 +7,10 @@
   "homepage_url": "https://github.com/acro5piano/chrome-extension",
   "content_scripts": [
     {
+      "matches": ["https://twitter.com/*"],
+      "css": ["./sites/twitter.com/index.css"]
+    },
+    {
       "matches": ["https://majinjima.ma-jide.com/*"],
       "js": ["./sites/majinjima.ma-jide.com/index.js"]
     },
