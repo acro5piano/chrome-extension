@@ -7,32 +7,68 @@
   "homepage_url": "https://github.com/acro5piano/chrome-extension",
   "content_scripts": [
     {
-      "matches": ["https://twitter.com/*"],
-      "css": ["./sites/twitter.com/index.css"]
+      "matches": [
+        "https://analytics.amplitude.com/*"
+      ],
+      "css": [
+        "./sites/analytics.amplitude.com/index.css"
+      ]
     },
     {
-      "matches": ["https://majinjima.ma-jide.com/*"],
-      "js": ["./sites/majinjima.ma-jide.com/index.js"]
+      "matches": [
+        "https://app.gather.town/*"
+      ],
+      "js": [
+        "./sites/app.gather.town/index.js"
+      ]
     },
     {
-      "matches": ["https://github.com/*"],
-      "js": ["./sites/github.com/index.js"]
+      "matches": [
+        "https://github.com/*"
+      ],
+      "js": [
+        "./sites/github.com/index.js"
+      ]
     },
     {
-      "matches": ["https://secure.freee.co.jp/*"],
-      "js": ["./sites/secure.freee.co.jp/index.js"]
+      "matches": [
+        "https://majinjima.ma-jide.com/*"
+      ],
+      "js": [
+        "./sites/majinjima.ma-jide.com/index.js"
+      ]
     },
     {
-      "matches": ["https://www.notion.so/*"],
-      "js": ["./sites/www.notion.so/index.js"]
+      "matches": [
+        "https://meet.google.com/*"
+      ],
+      "js": [
+        "./sites/meet.google.com/index.js"
+      ]
     },
     {
-      "matches": ["https://meet.google.com/*"],
-      "js": ["./sites/meet.google.com/index.js"]
+      "matches": [
+        "https://secure.freee.co.jp/*"
+      ],
+      "js": [
+        "./sites/secure.freee.co.jp/index.js"
+      ]
     },
     {
-      "matches": ["https://analytics.amplitude.com/*"],
-      "css": ["./sites/analytics.amplitude.com/index.css"]
+      "matches": [
+        "https://twitter.com/*"
+      ],
+      "css": [
+        "./sites/twitter.com/index.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.notion.so/*"
+      ],
+      "js": [
+        "./sites/www.notion.so/index.js"
+      ]
     }
   ]
 }
