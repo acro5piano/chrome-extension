@@ -52,6 +52,9 @@
       ],
       "js": [
         "./sites/secure.freee.co.jp/index.js"
+      ],
+      "css": [
+        "./sites/secure.freee.co.jp/index.css"
       ]
     },
     {

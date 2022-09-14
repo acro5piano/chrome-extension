@@ -6,7 +6,7 @@
   "author": "Kay Gosho <ketsume0211@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --ext ts --watch sites --watch util --exec ./build.mjs",
+    "dev": "nodemon --ext css,ts --watch sites --watch util --exec ./build.mjs",
     "build": "./build.mjs"
   },
   "dependencies": {

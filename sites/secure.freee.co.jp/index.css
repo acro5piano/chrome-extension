@@ -1,0 +1,23 @@
+.journalize-preview-ui {
+  display: none !important;
+}
+
+.tel_support {
+  display: none !important;
+}
+
+#chatbot-container {
+  display: none !important;
+}
+
+#footer {
+  display: none !important;
+}
+
+.header-title-freee-app-store {
+  display: none !important;
+}
+
+section > .vb-marginBase.vb-mb100 > .vb-listCard {
+  display: none !important;
+}
