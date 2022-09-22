@@ -21,3 +21,11 @@
 section > .vb-marginBase.vb-mb100 > .vb-listCard {
   display: none !important;
 }
+
+.notification {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 300px !important;
+  z-index: 99999;
+}
