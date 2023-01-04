@@ -5,3 +5,11 @@
 [aria-label='New Tweets are available. Push period to go to the beginning of your timeline and view them'] {
   display: none !important;
 }
+
+[aria-label='Timeline: Your Home Timeline'] {
+  display: none !important;
+}
+
+[aria-label='Trending'] {
+  display: none !important;
+}
