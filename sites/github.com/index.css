@@ -1,0 +1,4 @@
+/* beta: I want to hide "Unchanged files with check annotations" */
+.js-diff-progressive-container:nth-child(3) {
+  display: none;
+}

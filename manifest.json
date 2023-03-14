@@ -28,6 +28,9 @@
       ],
       "js": [
         "./sites/github.com/index.js"
+      ],
+      "css": [
+        "./sites/github.com/index.css"
       ]
     },
     {
