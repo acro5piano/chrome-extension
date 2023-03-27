@@ -1,3 +1,15 @@
+import { forEachElementContains } from '../../util/dom'
+
+document.addEventListener('load', () => {
+  forEachElementContains(
+    '.js-diff-progressive-container',
+    'Unchanged files with check annotations',
+    (el) => {
+      el.remove()
+    },
+  )
+})
+
 // import { isInputting } from '../../util/dom'
 //
 // /**
