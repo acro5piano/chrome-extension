@@ -1,5 +1,6 @@
 import { forEachElementContains } from '../../util/dom'
 
+/* beta: I want to hide "Unchanged files with check annotations" */
 document.addEventListener('load', () => {
   forEachElementContains(
     '.js-diff-progressive-container',
