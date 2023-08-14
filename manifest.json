@@ -8,6 +8,14 @@
   "content_scripts": [
     {
       "matches": [
+        "https://accounting.moneyforward.com/*"
+      ],
+      "css": [
+        "./sites/accounting.moneyforward.com/index.css"
+      ]
+    },
+    {
+      "matches": [
         "https://analytics.amplitude.com/*"
       ],
       "css": [
