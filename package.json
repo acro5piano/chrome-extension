@@ -13,6 +13,7 @@
     "delay": "^5.0.0"
   },
   "devDependencies": {
+    "@types/chrome": "^0.0.246",
     "esbuild": "^0.14.39",
     "nodemon": "^2.0.16",
     "typescript": "^4.6.4",

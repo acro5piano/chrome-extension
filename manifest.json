@@ -51,6 +51,14 @@
     },
     {
       "matches": [
+        "https://linear.app/*"
+      ],
+      "js": [
+        "./sites/linear.app/index.js"
+      ]
+    },
+    {
+      "matches": [
         "https://majinjima.ma-jide.com/*"
       ],
       "js": [
