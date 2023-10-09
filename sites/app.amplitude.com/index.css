@@ -1,0 +1,12 @@
+/** Credit: https://github.com/darkreader/darkreader/issues/10561#issuecomment-1387346790 */
+
+html {
+  filter: invert(100%) hue-rotate(180deg);
+  background: black;
+}
+img {
+  filter: invert(100%) hue-rotate(180deg) !important;
+}
+video {
+  filter: invert(100%) hue-rotate(180deg) !important;
+}

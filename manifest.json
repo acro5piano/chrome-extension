@@ -16,10 +16,10 @@
     },
     {
       "matches": [
-        "https://analytics.amplitude.com/*"
+        "https://app.amplitude.com/*"
       ],
       "css": [
-        "./sites/analytics.amplitude.com/index.css"
+        "./sites/app.amplitude.com/index.css"
       ]
     },
     {
