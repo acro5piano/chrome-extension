@@ -16,14 +16,6 @@
     },
     {
       "matches": [
-        "https://app.amplitude.com/*"
-      ],
-      "css": [
-        "./sites/app.amplitude.com/index.css"
-      ]
-    },
-    {
-      "matches": [
         "https://app.gather.town/*"
       ],
       "js": [
