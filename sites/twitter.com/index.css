@@ -6,10 +6,6 @@
   display: none !important;
 }
 
-[aria-label='Timeline: Your Home Timeline'] {
-  display: none !important;
-}
-
 [aria-label='Trending'] {
   display: none !important;
 }
