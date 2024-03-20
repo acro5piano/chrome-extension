@@ -67,6 +67,14 @@
     },
     {
       "matches": [
+        "https://mermaid.live/*"
+      ],
+      "css": [
+        "./sites/mermaid.live/index.css"
+      ]
+    },
+    {
+      "matches": [
         "https://secure.freee.co.jp/*"
       ],
       "js": [
