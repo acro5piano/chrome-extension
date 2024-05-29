@@ -102,6 +102,14 @@
     },
     {
       "matches": [
+        "https://*.atlassian.net/*"
+      ],
+      "css": [
+        "./sites/__wildcard__.atlassian.net/index.css"
+      ]
+    },
+    {
+      "matches": [
         "https://www.notion.so/*"
       ],
       "js": [

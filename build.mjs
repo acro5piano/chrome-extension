@@ -16,7 +16,7 @@ const content_scripts = []
 
 for (const domain of sites.stdout.trim().split(/\n/g)) {
   const content_script = {
-    matches: [`https://${domain}/*`],
+    matches: [`https://${domain}/*`.replace('__wildcard__', '*')],
   }
   const [js] = await glob(`./sites/${domain}/*.js`)
   if (js) {
