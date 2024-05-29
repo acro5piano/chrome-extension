@@ -59,6 +59,14 @@
     },
     {
       "matches": [
+        "https://mail.google.com/*"
+      ],
+      "css": [
+        "./sites/mail.google.com/index.css"
+      ]
+    },
+    {
+      "matches": [
         "https://majinjima.ma-jide.com/*"
       ],
       "js": [
