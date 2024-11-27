@@ -1,3 +1,35 @@
-[data-test-id='platform-board-kit.ui.card.card-cover.card-cover-image'] {
+* {
+  color: #fff !important;
+}
+
+/* NOTE: this is fragile */
+.css-yfocvt {
+  display: flex;
+  gap: 24px;
+}
+
+[data-testid='software-board.header.title.container'] + div {
+  white-space: pre-wrap;
+}
+
+[aria-label='View settings'],
+[data-testid='insights-show-insights-button.ui.insights-button'],
+[data-testid='software-filters.ui.list-filter-container'],
+[data-testid='platform.ui.fullscreen-button.fullscreen-button'],
+[data-testid='platform-board-kit.ui.minimap'],
+[data-testid='software-board.header.complete-sprint-button'],
+[data-testid='automation-menu.ui.button.menu-button'],
+[data-testid='favouriting.favorite-button-stateless.icon-wrapper'],
+[data-testid='insights-show-insights-button.ui.button-test-id-hide'],
+[data-testid='share-button.ui.pre-share-view.button'],
+[data-testid='atlassian-navigation--header'] {
   display: none !important;
+}
+
+.css-dt3vb {
+  display: none !important;
+}
+
+body {
+  margin-top: -56px !important;
 }
