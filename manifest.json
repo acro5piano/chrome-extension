@@ -32,10 +32,10 @@
     },
     {
       "matches": [
-        "https://chat.openai.com/*"
+        "https://chatgpt.com/*"
       ],
-      "js": [
-        "./sites/chat.openai.com/index.js"
+      "css": [
+        "./sites/chatgpt.com/index.css"
       ]
     },
     {
