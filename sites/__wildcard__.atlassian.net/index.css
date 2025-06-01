@@ -8,8 +8,12 @@
   gap: 24px;
 }
 
-[data-testid='software-board.header.title.container'] + div {
-  white-space: pre-wrap;
+[data-testid='page-layout.top-nav'] {
+  display: none !important;
+}
+
+[data-testid='horizontal-nav.ui.content.horizontal-nav'] {
+  display: none;
 }
 
 [aria-label='View settings'],
