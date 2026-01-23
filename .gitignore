@@ -105,3 +105,4 @@ dist
 
 # We use TypeScript
 *.js
+.aider*

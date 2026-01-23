@@ -26,7 +26,7 @@ setTimeout(() => {
     return
   }
   filter.appendChild(button)
-}, 5000)
+}, 3000)
 
 // import { isInputting } from '../../util/dom'
 //
