@@ -1,15 +1,32 @@
 import { forEachElementContains } from '../../util/dom'
 
 /* beta: I want to hide "Unchanged files with check annotations" */
-document.addEventListener('load', () => {
-  forEachElementContains(
-    '.js-diff-progressive-container',
-    'Unchanged files with check annotations',
-    (el) => {
-      el.remove()
-    },
-  )
-})
+forEachElementContains(
+  '.js-diff-progressive-container',
+  'Unchanged files with check annotations',
+  (el) => {
+    el.remove()
+  },
+)
+
+setTimeout(() => {
+  const button = document.createElement('button')
+  button.textContent = 'Toggle All'
+  button.onclick = () => {
+    document.querySelectorAll('.PRIVATE_TreeView-item-toggle').forEach((e) => {
+      if (e instanceof HTMLDivElement) {
+        e.click()
+      }
+    })
+  }
+  const filter = document.querySelector('#diff-file-tree-filter')
+  if (!filter) {
+    console.log('[chrome-extension] #diff-file-tree-filter not found')
+
+    return
+  }
+  filter.appendChild(button)
+}, 5000)
 
 // import { isInputting } from '../../util/dom'
 //
