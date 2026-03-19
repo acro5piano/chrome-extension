@@ -83,14 +83,6 @@
     },
     {
       "matches": [
-        "https://p.assured.jp/*"
-      ],
-      "js": [
-        "./sites/p.assured.jp/index.js"
-      ]
-    },
-    {
-      "matches": [
         "https://secure.freee.co.jp/*"
       ],
       "js": [
